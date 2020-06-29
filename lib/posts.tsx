@@ -13,6 +13,5 @@ export const getPosts = async () => {
     const { data:{title,date}, content } = matter(text);
     return {id,title,date};
   });
-  console.log(posts)
   return posts;
 }
